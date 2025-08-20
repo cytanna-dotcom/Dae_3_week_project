@@ -1,0 +1,19 @@
+#container{
+display:flex;
+align-items: center;
+flex-direction:column;
+
+background-color: blueviolet;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+}
+#input1, #input2{
+    text-align: center;
+    width: 50%;
+    margin:2px
+
+}
+
+
+
+
