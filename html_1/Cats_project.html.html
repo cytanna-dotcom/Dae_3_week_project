@@ -5,17 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cats Website </title>
         <link rel="stylesheet" href="./index.css">
+        <script src="index.js"></script>
     </header>
     <body>
         <div id="container" > 
             <h1 id="header">User Login</h1> 
             <input id="input1" type="text" placeholder="Username"></input>
-            <input id="input2" type="password" placeholder="Passyword"></input>
-            <button id="login">Login</button>
-            <button id="signup">Sign-up</button>
+            <input id="input2" type="password" placeholder="Password"></input>
+            <form action="http://127.0.0.1:3000/welcome.html">
+                <button id="login">Login</button><br>
+            </form>
+            <form action="http://127.0.0.1:3000/sign.up.html">
+                <button id="signup">Sign-up</button>
+            </form>
         </div>
-        <footer>
-            This page belongs to Cat W, don't copy me
-        </footer>
-    </body>
+        <footer>This page belongs to Cat W, don't copy me!</footer>
+        
+</body>
 </html>
