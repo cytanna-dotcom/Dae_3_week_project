@@ -3,6 +3,7 @@
     justify-content: space-between;
     flex-direction: row;
 }
+
 body {
     background-image: url(Images/purplepastel_project.jpg);
     background-size: cover;
@@ -15,27 +16,55 @@ body {
     position: relative;
     overflow-y: auto;
 }
-.image-row{
+
+.image-row {
     display: flex;
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
+
 .image-row img {
-	width: 200px;
-	height: auto;
-	object-fit: cover;
+    width: 200px;
+    height: auto;
+    object-fit: cover;
     display: block;
 }
-html{
+
+html {
     height: auto;
 }
+
 .bookLabel {
-	color: #fff;
-	font-weight: bold;
-	text-decoration: purple;
-	padding: 5px;
-	display: inline-block;
+    color: #d400ff;
+    font-weight: bold;
+    text-decoration: rgb(255, 0, 255);
+    padding: 5px;
+    display: inline-block;
 }
 
+h1 {
+    color: rgb(82, 17, 82);
+}
+
+p {
+    color: rgb(125, 23, 209);
+}
+
+.btn {
+
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.bttn:hover {
+    transform: scale(1.05);
+    background-color: #e7b4ff;
+    color: #fff;
+}

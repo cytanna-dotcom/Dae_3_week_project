@@ -78,3 +78,11 @@ body::before {
     background-color: #e7b4ff;
     color: #fff;
 }
+
+h1 {
+    color: black;
+}
+
+footer {
+    color: #e7b4ff
+}
