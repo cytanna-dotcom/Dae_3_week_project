@@ -3,3 +3,39 @@
     justify-content: space-between;
     flex-direction: row;
 }
+body {
+    background-image: url(Images/purplepastel_project.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow-y: auto;
+}
+.image-row{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.image-row img {
+	width: 200px;
+	height: auto;
+	object-fit: cover;
+    display: block;
+}
+html{
+    height: auto;
+}
+.bookLabel {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: purple;
+	padding: 5px;
+	display: inline-block;
+}
+
