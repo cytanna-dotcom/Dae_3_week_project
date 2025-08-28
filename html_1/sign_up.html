@@ -1,42 +1,38 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Character encoding -->
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Mobile scaling -->
     <title>Sign-up_page</title>
-    <link rel="stylesheet" href="./index3.css" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./index3.css" /> 
   </head>
-  <body>
-    <!--User creation, email, and password-->
-    <h2>Account Creation!</h2>
-    <form id="usercreation">
-      <label>Username</label><br />
-      <input
-        type="text"
-        id="usercreate"
-        required
-        placeholder="Create username!"
-      />
-      <br />
-      <label>Email</label>
-      <br />
-      <input
-        type="email"
-        id="enteremail"
-        required
-        placeholder="Enter your email!"
-      />
-      <br />
-      <label>Password</label><br />
-      <input
-        type="password"
-        id="passwordcreate"
-        required
-        placeholder="Create a password!"
-      />
-      <br /><br /><button type="submit">Create Account!</button>
-    </form>
 
-    <script src="index.js"></script>
+  <body>
+    <h2>Account Creation!</h2>
+    
+     <!-- Form for new account -->
+    <form id="usercreation"></form>
+      <label class="labels">Username</label><br />
+      <input type="text" id="usercreate" required placeholder="Create username!" />
+      <br />
+
+      <label class="labels">Email</label><br />
+      <input type="email" id="enteremail" required placeholder="Enter your email!" />
+      <br />
+
+      <label class="labels">Password</label><br />
+      <input type="password" id="passwordcreate" required placeholder="Create a password!" />
+      <br /><br />
+
+      <!-- Submit button -->
+      <button class="btn"type="submit">Create Account!</button> 
+    </form>
+    <!--Back home button-->
+    <a href="welcome.html" class="btn" id="homeBtn">Back To Homepage!</a>
+
+    <!-- External JS -->
+    <script src="index.js"></script> 
   </body>
 </html>

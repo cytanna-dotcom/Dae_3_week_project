@@ -1,3 +1,85 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #c4f9f1
+}
+
+
+
 h2 {
     color: blue
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: hsl(191, 100%, 78%);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+body {
+    background-image: url(Images/bluebackground_project.jpg);
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Style for h2 heading */
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Shared input styling */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    max-width: 200px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #4eccfa;
+    border-radius: 6px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+/* Focus effect */
+input:focus {
+    border-color: #2098c7;
+    outline: none;
+}
+
+label {
+    display: inline-block;
+    background-color: #9ff9eb;
+    /* Soft bubble color */
+    padding: 6px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* Optional soft shadow */
 }
